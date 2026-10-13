@@ -7,5 +7,11 @@
     "description": "Shared agents and skills for running Claude Code (and other AI agents) as a personal workshop.",
     "version": "0.1.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "workshop",
+      "source": "./plugins/workshop",
+      "description": "Everyday tools for your AI workshop, starting with a setup check (doctor)."
+    }
+  ]
 }

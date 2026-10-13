@@ -1,0 +1,9 @@
+{
+  "name": "workshop",
+  "description": "Everyday tools for your AI workshop, starting with a setup check (doctor).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Itzafineday"
+  },
+  "license": "MIT"
+}

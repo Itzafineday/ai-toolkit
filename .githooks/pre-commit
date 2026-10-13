@@ -13,7 +13,7 @@ gitleaks git --pre-commit --staged --redact --no-banner || {
 
 # Optional private word list: one name, email or term per line. It lives in
 # .git/info/private-terms, so it is never committed or pushed.
-terms="$(git rev-parse --git-dir)/info/private-terms"
+terms="$(git rev-parse --git-common-dir)/info/private-terms"
 if [ -s "$terms" ]; then
   hits=$(git diff --cached -U0 --no-color | grep '^+' | grep -v '^+++' | grep -iwF -f "$terms")
   if [ -n "$hits" ]; then

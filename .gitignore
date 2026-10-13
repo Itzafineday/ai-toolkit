@@ -1,0 +1,10 @@
+# Local data and secrets never belong in this repo
+.env
+.env.*
+*.pfx
+*.pem
+*.key
+data/
+logs/
+outputs/
+.claude/settings.local.json

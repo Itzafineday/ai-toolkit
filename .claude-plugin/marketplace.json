@@ -1,0 +1,11 @@
+{
+  "name": "ai-toolkit",
+  "owner": {
+    "name": "Itzafineday"
+  },
+  "metadata": {
+    "description": "Shared agents and skills for running Claude Code (and other AI agents) as a personal workshop.",
+    "version": "0.1.0"
+  },
+  "plugins": []
+}

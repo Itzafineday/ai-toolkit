@@ -21,7 +21,7 @@ Run each command on its own line, so one failure can't hide the others.
 | 1 | Git | `git --version` | it prints a version |
 | 2 | GitHub CLI | `gh --version` | it prints a version |
 | 3 | GitHub sign-in | `gh auth status` | it reports a signed-in account |
-| 4 | Node.js | `node --version` | it prints a version |
+| 4 | Node.js (optional) | `node --version` | it prints a version; if not, report `optional`, since only some extra tools need it |
 | 5 | Claude Code CLI | `claude --version` | it prints a version |
 | 6 | gitleaks (secret scanner) | `gitleaks version` | it prints a version |
 | 7 | Private commit email | `git config --global user.email` | it ends in `@users.noreply.github.com` |
@@ -72,7 +72,7 @@ Show one table, then one summary line, then the offer:
 | Git | OK | 2.55.0 | none |
 | Private commit email | needs attention | not a noreply address | see "Why the email matters" |
 
-- **Status** is exactly one of: `OK`, `missing`, `needs attention`.
+- **Status** is exactly one of: `OK`, `missing`, `needs attention`, or `optional` (check 4 only).
 - **Summary line**, for example: "7 OK, 1 missing, 1 needs attention."
 - **Offer**: "Want me to run any of these fixes? I'll do them one at a time and
   check each one afterwards." Run a fix only after a clear yes, then run its

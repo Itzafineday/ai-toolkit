@@ -5,13 +5,13 @@
   },
   "metadata": {
     "description": "Shared agents and skills for running Claude Code (and other AI agents) as a personal workshop.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "workshop",
       "source": "./plugins/workshop",
-      "description": "Everyday tools for your AI workshop, starting with a setup check (doctor)."
+      "description": "Everyday tools for your AI workshop: a setup check (doctor), an idea logger (capture-idea), a weekly digest (weekly-review) and sourced research reports (research-report)."
     }
   ]
 }

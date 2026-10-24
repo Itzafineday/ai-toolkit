@@ -11,7 +11,7 @@ meant to be maintained by the people who use it.
 
 ## Install
 
-**New to all this (Windows)?** Open Windows PowerShell and paste this one line.
+**Setting up the Octopus on Windows?** Open Windows PowerShell and paste this one line. It checks what you already have and skips it.
 It installs Git, the GitHub CLI, the Claude app and Claude Code, signs you in
 to GitHub, creates your private hub from the
 [hub template](https://github.com/Itzafineday/hub-template), and adds this

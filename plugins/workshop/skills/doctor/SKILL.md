@@ -23,7 +23,7 @@ Run each command on its own line, so one failure can't hide the others.
 | 3 | GitHub sign-in | `gh auth status` | it reports a signed-in account |
 | 4 | Node.js (optional) | `node --version` | it prints a version; if not, report `optional`, since only some extra tools need it |
 | 5 | Claude Code CLI | `claude --version` | it prints a version |
-| 6 | Workshop plugin | `claude plugin list` | it lists `workshop` |
+| 6 | Workshop plugin | `claude plugin list` | it lists `workshop@ai-toolkit` as enabled |
 | 7 | gitleaks (secret scanner) | `gitleaks version` | it prints a version |
 | 8 | Private commit email | `git config --global user.email` | it ends in `@users.noreply.github.com` |
 | 9 | Safety hook (only if the current folder has `.githooks/`) | `git config core.hooksPath` | it prints `.githooks` |
@@ -45,7 +45,7 @@ Privacy while checking:
 | 3 | `gh auth login`, then follow the prompts (choose GitHub.com and HTTPS, then log in with a web browser) |
 | 4 | `winget install --id OpenJS.NodeJS.LTS -e` |
 | 5 | `winget install --id Anthropic.ClaudeCode -e` (other ways: https://code.claude.com/docs/en/setup) |
-| 6 | `claude plugin marketplace add Itzafineday/ai-toolkit; claude plugin install workshop@ai-toolkit` |
+| 6 | Not listed: `claude plugin marketplace add Itzafineday/ai-toolkit`, then `claude plugin install workshop@ai-toolkit`. Listed but disabled: `claude plugin enable workshop@ai-toolkit` |
 | 7 | `winget install --id Gitleaks.Gitleaks -e` |
 | 8 | See "Why the email matters" below |
 | 9 | `git config core.hooksPath .githooks` |
